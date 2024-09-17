@@ -1,12 +1,19 @@
+/* eslint-disable react/jsx-no-undef */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable react/no-deprecated */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'normalize.css';
 import './index.css';
 import Cardapio from './pages/Cardapio';
+import Inicio from 'pages/Inicio';
+import Router from './routes';
+
+const componenteAtual = window.location.pathname === '/' ? <Inicio /> : <Cardapio />;
 
 ReactDOM.render(
   <React.StrictMode>
-    <Cardapio />
+    <Router />
   </React.StrictMode>,
   document.getElementById('root')
 );
