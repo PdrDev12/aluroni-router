@@ -42,7 +42,7 @@ export default function Inicio() {
       <div className={styles.nossaCasa}>
         <img src={nossaCasa} alt="Casa do aluroni" />
         <div className={styles.nossaCasa__endereco}>
-          Rua Vergueiro 3185 <br /> <br /> Vila Mariana - SP
+          Rua dos Patriotas <br /> <br /> Vila da DER - SP
         </div>
       </div>
     </section>
