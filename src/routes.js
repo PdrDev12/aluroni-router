@@ -1,4 +1,5 @@
 /* eslint-disable react/react-in-jsx-scope */
+
 import Footer from 'components/Footer';
 import Menu from 'components/Menu';
 import PaginaPadrao from 'components/PaginaPadrao';
